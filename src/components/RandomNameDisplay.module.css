@@ -1,0 +1,25 @@
+.randomNameContainer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    position: relative;
+    height: 80px;
+  }
+
+.randomNameText {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 40px 0;
+  }
+
+.spinnerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 60px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }

@@ -1,0 +1,38 @@
+.button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover, .button:active{
+    background-color: #13467e;
+    color: #fff;
+
+}
+
+.button:disabled {
+    cursor: not-allowed;
+    background-color: #96b1d1;
+    color: #59739c;
+}
+
+.removeButton {
+    background: none;
+    border: none;
+    color: #4d4c4c;
+    cursor: pointer;
+  }
+  
+  .removeButton:hover .removeIcon {
+    opacity: 1;
+  }
+  
+  .removeIcon {
+    position: absolute;
+    font-size: 16px;
+    top: -5px;
+    opacity: 0.3;
+  }
