@@ -3,9 +3,10 @@ import styles from './Header.module.css';
 
 const Header = () => {
     return (
-        <header className="App-header">
-        <h1 className="App-title">Simbasket</h1>
-      </header>
+        <div className={styles.header}>
+        {/* <p className={styles.title}>Simbasket</p> */}
+        <p className={styles.title}>Test Page</p>
+      </div>
     );
 }
 

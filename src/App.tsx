@@ -1,24 +1,20 @@
 import './App.css';
-
-import Main from './layout/Main';
+import { BrowserRouter } from 'react-router-dom';
 import Header from './layout/Header';
-import MenuTop from './layout/MenuTop';
+import Main from './layout/Main';
 
 
 
 function App() {
 
   return (
-    <div className="App">
-      <div className='header'>
-        <Header/>
+    <div className="app">
+      <div>
+        <Header />
       </div>
-      <div className='top-menu'>
-        <MenuTop/>
-      </div>
-      <div className="App-content">
-        <Main/>
-      </div>
+      <BrowserRouter>
+        <Main />
+      </BrowserRouter>
     </div>
   );
 }

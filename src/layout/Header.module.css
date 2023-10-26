@@ -1,3 +1,9 @@
 .header {
-    padding: 2rem 0 0 0;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
 }
+
+.title {
+    color: #333;
+    font-size: 3.5rem;
+  }
